@@ -7,8 +7,10 @@ public class Prob1 {
 
     int usernum = scan.nextInt();
 
-    if (usernum > 5)
-      
+    if (usernum > 5 && usernum < 76)
+      System.out.println("False");
+    else
+      System.out.println("True");      
 
 
   }
